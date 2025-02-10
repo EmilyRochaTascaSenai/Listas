@@ -48,3 +48,23 @@ function  cadastarItem(){
 }
 
 
+function excluirItem(){
+    
+}
+
+
+document.getElementById('btnTeste')
+
+const btnTeste=document.getElementById('btnTeste');
+
+// addEventListener('click',function(){
+//     console.log('clicou');
+// });
+
+btnTeste.addEventListener('click',function(){
+    console.log('clicou no botão');
+});
+
+
+const nome='SENAI';
+
