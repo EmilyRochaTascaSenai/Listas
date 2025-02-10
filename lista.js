@@ -65,6 +65,8 @@ btnTeste.addEventListener('click',function(){
     console.log('clicou no botão');
 });
 
-
+btnTeste.addEventListener('click',()=>{
+    
+})
 const nome='SENAI';
 
