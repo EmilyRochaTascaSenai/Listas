@@ -23,3 +23,15 @@ console.log(`Qtde. notas cadastradas: ${notas.length}`);
 // Média da soma
 const media = soma / notas.length;
 console.log(`Média: ${media}`);
+
+
+function  cadastarItem(){
+    const numero=parseFloat(document.getElementById('valor').value);
+    notas.push(numero);
+    console.log(notas);
+    let soma=notas[0]+notas[1]+notas[2]+notas[3];
+    console.log(`Qtde. notas cadastradas: ${notas.length}`);
+    let media=soma / notas.length;
+    console;log(`Soma: ${soma}`);
+    console.log(`Média Calculada: ${media}`);
+}
