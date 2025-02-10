@@ -29,9 +29,22 @@ function  cadastarItem(){
     const numero=parseFloat(document.getElementById('valor').value);
     notas.push(numero);
     console.log(notas);
-    let soma=notas[0]+notas[1]+notas[2]+notas[3];
-    console.log(`Qtde. notas cadastradas: ${notas.length}`);
-    let media=soma / notas.length;
-    console;log(`Soma: ${soma}`);
+
+    let qtdeNotas=notas.length;
+
+    //Calcula a soma das notas registradas
+
+    let soma=0;
+    for (let i = 0; i < qtdeNotas; i++) {
+        soma += notas[i];
+    }
+    console.log('Qtde de notas:${notas.length}'); 
+    //Calcula a media com base no numero cadastradas
+    let media=soma/qtdeNotas;
+    console.log(`Soma: ${soma}`);
     console.log(`Média Calculada: ${media}`);
+
+
 }
+
+
