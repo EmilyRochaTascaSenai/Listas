@@ -16,6 +16,10 @@ const btnExcluir=document.createElement('button');
 btnExcluir.textContent='Excluir';
 btnExcluir.id='btn-excluir';
 btnExcluir.addEventListener('click',()=>{
-    novoItem.parentNode.removeChild(novoItem);
+novoItem.parentNode.removeChild(novoItem);
 })
+
+// Crie e adicione o botão de exibir
+
+
 novoItem.appendChild(btnExcluir);
