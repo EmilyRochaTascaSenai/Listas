@@ -66,7 +66,14 @@ btnTeste.addEventListener('click',function(){
 });
 
 btnTeste.addEventListener('click',()=>{
-    
-})
-const nome='SENAI';
+    console.log('seta')
+});
 
+// function soma(x,y){
+//     return x+y;
+// }
+ 
+
+// const soma2 = (x,y)=>{
+//     return x+y;
+// }
